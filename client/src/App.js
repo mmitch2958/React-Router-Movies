@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+
+
+import React, { useState, useEffect, Component } from 'react';
 import axios from 'axios';
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import SavedList from './Movies/SavedList';
 import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie'
